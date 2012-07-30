@@ -22,20 +22,20 @@
     * @package WideImage
   **/
 	
-	require_once WideImage::path() . 'Exception.php';
+	// require_once WideImage::path() . 'Exception.php';
 	
-	require_once WideImage::path() . 'Image.php';
-	require_once WideImage::path() . 'TrueColorImage.php';
-	require_once WideImage::path() . 'PaletteImage.php';
+	// require_once WideImage::path() . 'Image.php';
+	// require_once WideImage::path() . 'TrueColorImage.php';
+	// require_once WideImage::path() . 'PaletteImage.php';
 	
-	require_once WideImage::path() . 'Coordinate.php';
-	require_once WideImage::path() . 'Canvas.php';
-	require_once WideImage::path() . 'MapperFactory.php';
-	require_once WideImage::path() . 'OperationFactory.php';
+	// require_once WideImage::path() . 'Coordinate.php';
+	// require_once WideImage::path() . 'Canvas.php';
+	// require_once WideImage::path() . 'MapperFactory.php';
+	// require_once WideImage::path() . 'OperationFactory.php';
 	
-	require_once WideImage::path() . 'Font/TTF.php';
-	require_once WideImage::path() . 'Font/GDF.php';
-	require_once WideImage::path() . 'Font/PS.php';
+	// require_once WideImage::path() . 'Font/TTF.php';
+	// require_once WideImage::path() . 'Font/GDF.php';
+	// require_once WideImage::path() . 'Font/PS.php';
 	
 	/**
 	 * @package Exceptions
