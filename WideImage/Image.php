@@ -216,7 +216,13 @@
 			$args = func_get_args();
 			$data = call_user_func_array(array($this, 'asString'), $args);
 			
-			$this->writeHeader('Content-length', strlen($data));
+			if (function_exists('mb_strlen')) {
+				$byteCount = mb_strlen($data, '8bit');
+			} else {
+				$byteCount = strlen($data);
+			}
+			
+			$this->writeHeader('Content-length', $byeCount);
 			$this->writeHeader('Content-type', WideImage_MapperFactory::mimeType($format));
 			echo $data;
 		}
