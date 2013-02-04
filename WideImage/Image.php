@@ -222,7 +222,7 @@
 				$byteCount = strlen($data);
 			}
 			
-			$this->writeHeader('Content-length', $byeCount);
+			$this->writeHeader('Content-length', $byteCount);
 			$this->writeHeader('Content-type', WideImage_MapperFactory::mimeType($format));
 			echo $data;
 		}
