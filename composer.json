@@ -5,6 +5,9 @@
     "type": "library",
     "license": ["GPL-2.0","LGPL-2.1"],
     "version": "11.02.19",
+    "require": {
+      "ext-gd": "*"
+    },
     "autoload": {
         "psr-0" : {
           "WideImage" : "",
